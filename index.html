@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>ozgon</title>
     <link rel="stylesheet" href="./style.css">
     <script src="https://cdn.tailwindcss.com"></script>
@@ -14,32 +15,80 @@
       }
       </style> 
 </head>
-<body class="bg-[grey]">
+<body class="bg-[#333]">
     <header>
     <div class="m-auto w-[1200px] mt-[20px]">
         <div class="flex space-betwen">
-  <img src="./img/person.webp" alt="" class="w-[10px] ml-[40px]">
-  <h2 class="ml-[10px] mt-[5px]">People</h2>
+  <img src="./img/person.webp" alt="" class="w-[20px] ml-[40px]">
+  <h2 class="ml-[10px] mt-[10px] text-[white]">People</h2>
   <nav>
     <ul class="flex justify-evenly">
       <a href="./pages/word/word.html">
-        <li class="ml-[300px] mt-[5px]">Word</li>
+        <li class="ml-[300px] mt-[10px] text-[white] hover:text-[grey]">Word</li>
       </a>
       <a href="./pages/zoom/zoom.html">
-        <li class="ml-[180px] mt-[5px]">Zoom</li>
+        <li class="ml-[180px] mt-[10px] text-[white] hover:text-[grey]">Zoom</li>
       </a>
     </ul>
   </nav>
-     <a href="./pages/login/login.html"><button class="ml-[300px] radius-[7px] bg-[black] text-[white] py-[5px] p-[5px]">Login</button></a>
-     <a href="./pages/signUp/signUp.html"><button class="ml-[60px] radius-[2px] bg-[white] text-[black] py-[5px] px-[6px]">Sign up</button></a>  
+     <a href="./pages/login/login.html"><button class="bg-[grey] rounded-[8px] px-[23px] py-[11px] ml-[300px] text-white mt-[10px] hover:bg-[#333]">Login</button></a>
+     <a href="./pages/signUp/signUp.html"><button class="bg-[grey] rounded-[8px] px-[23px] py-[11px] ml-[20px] text-white mt-[10px] hover:bg-[#333]">Sign up</button></a>  
      </div>
 
   </div>
     </header>
     <main>
-        <section></section>
-        <section></section>
-        <section></section>
+      <section></section>      
+      <section class="body2"> 
+          <div class="container">
+          <div class="card">
+            <div class="face face1">
+            <div class="content">
+              <img src="./img/UzgenMausoleum.jpg" alt="" class="card__icon">
+              <h3>Мавзолей</h3>
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <p>Узгенские мавзолеи Караханидов — архитектурный памятник, тюркской династии Караханидов</p>
+              <a href="https://ru.wikipedia.org/wiki/%D0%A3%D0%B7%D0%B3%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B5_%D0%BC%D0%B0%D0%B2%D0%B7%D0%BE%D0%BB%D0%B5%D0%B8_%D0%9A%D0%B0%D1%80%D0%B0%D1%85%D0%B0%D0%BD%D0%B8%D0%B4%D0%BE%D0%B2" class="more-link">Подробнее</a>
+            </div>
+          </div>
+          </div>
+          
+          <div class="card">
+            <div class="face face1">
+            <div class="content">
+              <img src="./img/minara.jpg" alt="Code">
+              <h3>Minaret</h3>
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <p>Узгенский минарет, также называемый Özgön Minar или Uzgend Minaret — башня -минарет XI века</p>
+              <a href="https://en.wikipedia.org/wiki/Uzgen_Minaret" class="more-link">Подробнее</a>
+            </div>
+          </div>
+          </div>
+          
+            <div class="card">
+            <div class="face face1">
+            <div class="content">
+              <img src="./img/iSAAAgJmXuA-1920-1.jpg" alt="Launch">
+              <h3>Озгон</h3>
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <p>Узгенский район (кирг. Өзгөн району) — административная единица Ошской области Кыргызстана</p>
+              <a href="https://ru.wikipedia.org/wiki/%D0%A3%D0%B7%D0%B3%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D1%80%D0%B0%D0%B9%D0%BE%D0%BD" class="more-link">Подробнее</a>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+      <section></section>
+      <section></section>
     </main>
     <footer>
       <div class="w-[1200px] m-auto"> 
@@ -56,8 +105,8 @@
       <h3 class="font-bold   mt-[20px] Weight-[400] text-white  text-[18px]">Contact</h3>
        <nav>
       <ul class="Weight-400px text-[14px] text-[#FFFFFF8C] mt-[20px] ml-[0px]" >
-      <li>0509-340-665</li>
-      <li class="my-[10px]">0770-103-310</li>
+      <li class="hover:text-[white]">0509-340-665</li>
+      <li class="my-[10px] hover:text-[white]">0770-103-310</li>
       </ul>
       </nav>     
       </div>  
@@ -65,8 +114,8 @@
           <h3 class="font-bold   mt-[20px] Weight-[400] text-white  text-[18px]">Contact</h3>
            <nav>
           <ul class="W-[300px] text-[14px] text-[#FFFFFF8C] mt-[20px] ml-[0px]" >
-          <li>0221-900-014</li>
-          <li class="mt-[10px]">0700-041-401</li>
+          <li class="hover:text-[white]">0221-900-014</li>
+          <li class="mt-[10px] hover:text-[white]">0700-041-401</li>
           </ul>
           </nav>     
           </div>  
@@ -74,8 +123,7 @@
               <h3 class="font-bold   mt-[20px] W-[300px] text-white  text-[18px]">Contact</h3>
                <nav>
               <ul class="W-[300px] text-[14px] text-[#FFFFFF8C] mt-[20px] " >
-              <li>+7 977 379-68-93</li>
-              <li class="my-[10px]">Our Partners</li>
+              <li class="hover:text-[white]">+7 977 379-68-93</li>
               </ul>
               </nav>     
               </div>  
