@@ -9,7 +9,7 @@
     font-family: consolas;
   } 
   .container{
-    /* width: 1000px; */
+    width: 1200px;
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -76,7 +76,7 @@
     padding:0;
   }
   .container .card .face.face2 .content a{
-    margin: auto 0 0;
+    margin: auto 0;
     display: inline-block;
     text-decoration: none;
     font-weight: 900;
