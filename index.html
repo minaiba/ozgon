@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ozgon</title>
+    <link rel="stylesheet" href="./style.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <style type="text/tailwindcss">
       @layer utilities {
@@ -13,17 +14,73 @@
       }
       </style> 
 </head>
-<body>
+<body class="bg-[grey]">
     <header>
-        <h2></h2>
+    <div class="m-auto w-[1200px] mt-[20px]">
+        <div class="flex space-betwen">
+  <img src="./img/person.webp" alt="" class="w-[10px] ml-[40px]">
+  <h2 class="ml-[10px] mt-[5px]">People</h2>
+  <nav>
+    <ul class="flex justify-evenly">
+      <a href="./pages/word/word.html">
+        <li class="ml-[300px] mt-[5px]">Word</li>
+      </a>
+      <a href="./pages/zoom/zoom.html">
+        <li class="ml-[180px] mt-[5px]">Zoom</li>
+      </a>
+    </ul>
+  </nav>
+     <a href="./pages/login/login.html"><button class="ml-[300px] radius-[7px] bg-[black] text-[white] py-[5px] p-[5px]">Login</button></a>
+     <a href="./pages/signUp/signUp.html"><button class="ml-[60px] radius-[2px] bg-[white] text-[black] py-[5px] px-[6px]">Sign up</button></a>  
+     </div>
+
+  </div>
     </header>
     <main>
         <section></section>
         <section></section>
         <section></section>
-        <section></section>
-        <section></section>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="w-[1200px] m-auto"> 
+        <div class="flex justify-between mt-[80px] mr-[45px] ml-[45px]">
+          <div class="mt-[20px]">
+              <div class=" flex items-center ">
+                  <img src="./img/person.webp" alt="" class="w-[20px]"> 
+                  <h3 class="font-bold w-[190px] ml-[20px] Weight-[500] text-white  text-[26px]">people.</h3>
+                  </div> 
+              <p class="Weight-400px text-[14px] text-[#FFFFFF8C] mt-[20px] ml-[0px]">Сайт, чтобы зарегистрироваться <br> и стать узгенским</p>
+            
+            </div>
+      <div>
+      <h3 class="font-bold   mt-[20px] Weight-[400] text-white  text-[18px]">Contact</h3>
+       <nav>
+      <ul class="Weight-400px text-[14px] text-[#FFFFFF8C] mt-[20px] ml-[0px]" >
+      <li>0509-340-665</li>
+      <li class="my-[10px]">0770-103-310</li>
+      </ul>
+      </nav>     
+      </div>  
+      <div>
+          <h3 class="font-bold   mt-[20px] Weight-[400] text-white  text-[18px]">Contact</h3>
+           <nav>
+          <ul class="W-[300px] text-[14px] text-[#FFFFFF8C] mt-[20px] ml-[0px]" >
+          <li>0221-900-014</li>
+          <li class="mt-[10px]">0700-041-401</li>
+          </ul>
+          </nav>     
+          </div>  
+          <div>
+              <h3 class="font-bold   mt-[20px] W-[300px] text-white  text-[18px]">Contact</h3>
+               <nav>
+              <ul class="W-[300px] text-[14px] text-[#FFFFFF8C] mt-[20px] " >
+              <li>+7 977 379-68-93</li>
+              <li class="my-[10px]">Our Partners</li>
+              </ul>
+              </nav>     
+              </div>  
+              </div>
+  
+    </footer>
 </body>
 </html>
